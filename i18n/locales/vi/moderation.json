@@ -1,0 +1,56 @@
+{
+  "errors": {
+    "disabled": "❌ Module moderation hiện đang tắt! Bật nó trong web dashboard.",
+    "noPerm": "❌ Bạn không có quyền sử dụng lệnh này!",
+    "noPermBan": "❌ Bạn không có quyền ban members!",
+    "noPermKick": "❌ Bạn không có quyền kick members!",
+    "noPermMute": "❌ Bạn không có quyền mute members!",
+    "userNotFound": "❌ Không tìm thấy user trong server!",
+    "cannotSelf": "❌ Bạn không thể tự ban chính mình!",
+    "protected": "❌ User này có role được bảo vệ, không thể ban!",
+    "higherRole": "❌ Bạn không thể ban người có role cao hơn hoặc bằng bạn!",
+    "invalidDuration": "❌ Thời gian không hợp lệ! Tối thiểu: 5 phút, Tối đa: 7 ngày (10080 phút)",
+    "notMuted": "❌ Thành viên này không bị mute!",
+    "warningNotFound": "❌ Không tìm thấy warning!",
+    "botError": "❌ Có lỗi xảy ra khi thực hiện lệnh!"
+  },
+  "success": {
+    "banned": "✅ **{user}** đã bị ban!",
+    "unbanned": "✅ **{user}** đã được unban!",
+    "kicked": "✅ **{user}** đã bị kick!",
+    "muted": "✅ **{user}** đã bị mute trong {duration}!",
+    "unmuted": "✅ **{user}** đã được unmute!",
+    "warned": "✅ **{user}** đã bị warn! (Warnings: {count}/5)",
+    "unwarnSuccess": "✅ Đã xóa warning #{id}!",
+    "lockSuccess": "🔒 Đã lock {channel}!\n**Lý do:** {reason}",
+    "unlockSuccess": "🔓 Đã unlock {channel}!\n**Lý do:** {reason}",
+    "slowmodeSuccess": "⏱️ Đã đặt slowmode cho {channel}: {duration}\n**Lý do:** {reason}"
+  },
+  "dm": {
+    "banned": "Bạn đã bị ban khỏi {server} vì: {reason}",
+    "unbanned": "Bạn đã được unban khỏi {server}",
+    "kicked": "Bạn đã bị kick khỏi {server} vì: {reason}",
+    "muted": "Bạn đã bị mute trong {server} vì: {reason}. Thời gian: {duration}",
+    "unmuted": "Bạn đã được unmute trong {server}",
+    "warned": "⚠️ Bạn đã bị cảnh cáo trong {server}!\n**Lý do:** {reason}\n**Tổng cảnh cáo:** {count}/5"
+  },
+  "labels": {
+    "reason": "Lý do",
+    "noReason": "Không có lý do",
+    "duration": "Thời gian"
+  },
+  "lock_success": "🔒 Đã lock {channel}!\n**Lý do:** {reason}",
+  "unlock_success": "🔓 Đã unlock {channel}!\n**Lý do:** {reason}",
+  "slowmode_success": "⏱️ Đã đặt slowmode cho {channel}: {duration}\n**Lý do:** {reason}",
+  "slowmode_disabled": "Tắt",
+  "slowmode_duration": "{duration}",
+  "slowmode_invalid_duration": "❌ Thời gian slowmode không hợp lệ! (0-21600 giây / 0-6 giờ)",
+  "purge_success": "🗑️ Đã xóa {count} tin nhắn trong {channel}!",
+  "purge_processing": "🗑️ Đang xóa tin nhắn...",
+  "nuke_success": "💣 Channel đã được nuke bởi {user}! Tất cả tin nhắn cũ đã bị xóa sạch! ✨",
+  "nuke_processing": "💣 Đang nuke channel...",
+  "command_disabled": "❌ Lệnh {command} đã bị tắt bởi quản trị viên server!",
+  "no_permission": "❌ Bạn không có quyền sử dụng lệnh này!",
+  "no_reason": "Không có lý do",
+  "error": "❌ Có lỗi xảy ra khi thực hiện lệnh!"
+}

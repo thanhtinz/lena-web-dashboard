@@ -1,0 +1,49 @@
+Slash Commands
+reactionrole setup
+Manage Server
+/reactionrole setup
+Starts the interactive setup to get you started with reaction roles.
+reactionrole show [message_id]
+/reactionrole show
+Shows the emoji-role pairs and their associated message id, useful for rr add. If a message id is specified, it will show additional information about that particular reaction role.
+reactionrole add <message_id> <emoji> <role> [channel]
+Manage Server
+/reactionrole add 👼 @pure #roles
+Adds the emoji-role pair to the message and the database.
+reactionrole addmany <message_id> <emoji-role-pair> [channel]
+Manage Server
+/reactionrole addmany 👼 @pure 💩 @fn #roles
+Works like reactionrole add except it adds more than one role at a time.
+Separate each emoji-role pair using Shift + Enter.
+reactionrole remove <role> [message_id]
+Manage Server
+/reactionrole remove @fortnite 123456
+Removes an emoji-reaction pair from the specified bot message.
+reactionrole purge [message_id]
+Manage Server
+/reactionrole purge 123456
+If you specify a message id, it removes all the roles from the message and if you don’t, it will remove all reaction roles from the server.
+reactionrole blacklist <choice> [message_id] [roles…]
+Manage Server
+/reactionrole blacklist add 123456 Staff
+Putting in blacklist prevents members with this role from picking up roles from the message.
+reactionrole whitelist <choice> [message_id] [roles…]
+Manage Server
+/reactionrole whitelist remove 123456 Staff
+Putting in whitelist makes it so that only members with one of these roles can pick up roles from the message.
+reactionrole selfdestruct <message_id> <when>
+Manage Server
+/reactionrole selfdestruct 123456 7d
+Deletes the message and all of its reaction roles after the time is up.
+reactionrole edit <message_id> <message_string>
+Manage Server
+/reactionrole edit 123456 Games | Game notifs
+Edits the title and description, works like it does in the make command.
+reactionrole channel [channel_name]
+Manage Server
+/reactionrole channel color-roles
+Creates a channel with the sort of permissions you most likely want for a reaction role channel.
+reactionrole fix
+Manage Server
+/reactionrole fix
+Use this command to have the bot add the reactions missing/cleared.

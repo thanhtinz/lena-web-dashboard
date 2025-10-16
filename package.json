@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:sharded": "node sharding/start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "@types/jsonwebtoken": "^9.0.10",
+    "discord.js": "^14.23.2",
+    "drizzle-orm": "^0.44.6",
+    "jsonwebtoken": "^9.0.2",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^2.7.0",
+    "openai": "^6.3.0",
+    "recharts": "^3.2.1",
+    "rss-parser": "^3.13.0",
+    "ws": "^8.18.3"
+  }
+}

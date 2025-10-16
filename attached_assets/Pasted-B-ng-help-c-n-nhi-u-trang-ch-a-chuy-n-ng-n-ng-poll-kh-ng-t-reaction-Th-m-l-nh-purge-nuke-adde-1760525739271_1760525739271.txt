@@ -1,0 +1,19 @@
+Bảng help còn nhiều trang chưa chuyển ngôn ngữ, poll không tự reaction 
+
+Thêm lệnh purge, nuke, addemoji, steal emoji, set nickname, lock, coôldown
+
+Lệnh sticky cả bot và web (dashboard, slash, prefix). Có 2 hình thức gửi sticky: 1. gửi lại sticky sau 1 tin nhắn mới, 2. Gửi lại sticky sau [time]. Có tích hợp embed builder full
+
+
+STICKYBOT COMMANDS
+
+📌 STICKIES
+?stick <message> – Sticks your message to the channel.  ?stickstop – Stops the current sticky in the channel. ?stickstart – Restarts a stopped sticky message using the previous message. ?stickremove – Stops and completely deletes the stickied message in this channel. ?getstickies – Get all active stickies in the server.
+🎛️ UTILITY
+?poll – Create a pretty poll for people to vote. ?apoll <question, option1, option2> – Create a multiple choice poll for people to vote. Separate the question and options with commas. Supports up to 4 options. ?userinfo <@user> – Get a users discord information. (@user can be a mention, ID, or left blank) ?serverinfo – Get the current guilds server infomation. ?embed <message> – Turns your message into a embed.
+😄 FUN
+?weather <location> – Get the current weather in a city. ?wiki <article> – Get the requested Wikipedia article. ?wiki random – Get a random Wikipedia article. ?image <image link> – AI will return keywords from the image. ?wikihow – Get a random WikiHow article. ?urban – Look something up on the Urban Dictionary.  ?love <name1, name2> – Get the compatibility % on two names. ?roll – Rolls two dice. ?flip – Flips a coin. ?flip – Flips a coin.
+📃 OTHER
+?help – Get a list of all StickyBot commands.  ?about – Get information about StickyBot.  ?premium – Info about StickyBot Premium.  ?invite – Get the invite link to invite StickyBot to a server.  ?support – Get an invite to the official StickyBot support server. ?donate – Information about supporting StickyBot.  ?disablecommands – Disable all non-sticky commands.  ?enablecommands – Enable all non-sticky commands. 
+🧡 PREMIUM COMMANDS
+?stickembed <message> – Creates a sticky with an embed. ( 🧡 Premium Only) ?stickwebhook <message> – Creates a sticky embed with a custom name & pfp. ( 🧡 Premium Only ) ?setwebhook <URL> – Sets the sticky WebHook URL. ( 🧡 Premium Only ) ?stickpoll – Create a sticky poll. Use without arguments to see sub-commands. ( 🧡 Premium Only ) ?stickslow <message> – Creates a sticky that posts slower than a normal sticky. ( 🧡 Premium Only ) ?stickspeed <speed> – View / change the speed at which stick messages are sent. ( 🧡 Premium Only ) ?setimage  <image link> – Sets image for sticky embed in the channel. ( 🧡 Premium Only ) ?removeimage – Removes image for sticky embed in the channel. ( 🧡 Premium Only ) ?getimage – See the current channels sticky embed image and link. ( 🧡 Premium Only ) ?setbigimage <image link> – Sets big image for sticky embed in the channel. ( 🧡 Premium Only ) ?removebigimage – Removes big image for sticky embed in the channel. ( 🧡 Premium Only ) ?getbigimage – See the current channels sticky embed big image and link. ( 🧡 Premium Only ) ?prefix <prefix> – Set your custom prefix. ( 🧡 Premium Only )

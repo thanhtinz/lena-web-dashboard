@@ -1,0 +1,339 @@
+{
+  "bot_info": {
+    "name": "Lena",
+    "description": "AI-powered Discord bot with 6 personalities, 70+ games, advanced moderation, and powerful features",
+    "version": "2.0",
+    "prefix": "! (customizable per server)",
+    "personalities": [
+      {
+        "name": "Lena",
+        "description": "Default cute, friendly personality. A 19-year-old academic ace who loves helping people"
+      },
+      {
+        "name": "Tutor",
+        "description": "Professional educational assistant for grades 1-12 and university across 10+ subjects"
+      },
+      {
+        "name": "Tech Support",
+        "description": "Technical troubleshooting and IT support specialist"
+      },
+      {
+        "name": "Developer",
+        "description": "Code assistance, debugging, and programming help"
+      },
+      {
+        "name": "Casual",
+        "description": "Relaxed, informal chatting style"
+      },
+      {
+        "name": "Professional",
+        "description": "Formal, business-appropriate communication"
+      }
+    ]
+  },
+  "commands": {
+    "ai_chat": [
+      {
+        "name": "@Lena or lena",
+        "usage": "@Lena <message> or just type 'lena <message>'",
+        "description": "Chat with Lena using AI. Supports 6 different personalities and context-aware conversations",
+        "examples": ["@Lena what's the weather like?", "lena tell me a joke"]
+      },
+      {
+        "name": "/analyze",
+        "usage": "/analyze image:<file> [question:<text>]",
+        "description": "Analyze images using AI Vision. Can answer questions about the image content",
+        "examples": ["/analyze image:photo.jpg question:What's in this image?"]
+      },
+      {
+        "name": "search",
+        "usage": "search <query>",
+        "description": "Web search with citations using Google Custom Search and DuckDuckGo. Returns relevant results with sources",
+        "examples": ["search latest AI news", "search how to cook pasta"]
+      },
+      {
+        "name": "tutor or học",
+        "usage": "tutor <study question>",
+        "description": "AI Tutor for grades 1-12 and university. Supports Math, Physics, Chemistry, Biology, English, History, Geography, and more",
+        "examples": ["tutor solve quadratic equation x^2 + 5x + 6 = 0", "tutor explain photosynthesis"]
+      },
+      {
+        "name": "code or debug",
+        "usage": "code <code problem>",
+        "description": "Code Assistant for debugging, code review, learning programming, and technical help",
+        "examples": ["code why does my Python loop not work?", "debug this JavaScript function"]
+      },
+      {
+        "name": "news or tin tức",
+        "usage": "news [keyword]",
+        "description": "Get latest news from VnExpress, Tuổi Trẻ (Vietnamese) or CNN (English) based on server language",
+        "examples": ["news technology", "tin tức công nghệ"]
+      },
+      {
+        "name": "game info",
+        "usage": "<game name> <question>",
+        "description": "Get information about 23 popular games including League of Legends, PUBG, Valorant, Minecraft, Genshin Impact, and more",
+        "examples": ["league of legends best champions", "valorant agents list"]
+      }
+    ],
+    "games": [
+      {
+        "name": "/truthordare",
+        "usage": "/truthordare",
+        "description": "Play Truth or Dare game with random questions and dares"
+      },
+      {
+        "name": "/rps",
+        "usage": "/rps choice:<rock/paper/scissors>",
+        "description": "Play Rock Paper Scissors with the bot"
+      },
+      {
+        "name": "/8ball",
+        "usage": "/8ball question:<your question>",
+        "description": "Ask the magic 8-ball a yes/no question"
+      },
+      {
+        "name": "/gif",
+        "usage": "/gif keyword:<search term>",
+        "description": "Search and send GIFs from Tenor"
+      },
+      {
+        "name": "!hug, !kiss, !pat, !slap, etc.",
+        "usage": "!<action> [@user]",
+        "description": "70+ anime action GIFs including hug, kiss, pat, slap, highfive, and more"
+      },
+      {
+        "name": "!flip",
+        "usage": "!flip",
+        "description": "Flip a coin with custom Lena emojis"
+      },
+      {
+        "name": "trivia games",
+        "usage": "trivia, đố vui, đoán từ",
+        "description": "Vietnamese knowledge games including trivia questions, riddles, and word guessing"
+      }
+    ],
+    "moderation": [
+      {
+        "name": "/ban",
+        "usage": "/ban user:<@user> [reason:<reason>]",
+        "description": "Ban a user from the server. Requires Manage Members permission",
+        "requires": "Manage Members permission"
+      },
+      {
+        "name": "/kick",
+        "usage": "/kick user:<@user> [reason:<reason>]",
+        "description": "Kick a user from the server. Requires Manage Members permission",
+        "requires": "Manage Members permission"
+      },
+      {
+        "name": "/mute",
+        "usage": "/mute user:<@user> duration:<minutes> [reason:<reason>]",
+        "description": "Mute a user using Discord timeout. Requires Moderate Members permission",
+        "requires": "Moderate Members permission"
+      },
+      {
+        "name": "/warn",
+        "usage": "/warn user:<@user> [reason:<reason>]",
+        "description": "Warn a user. Warnings are logged",
+        "requires": "Moderate Members permission"
+      },
+      {
+        "name": "!purge",
+        "usage": "!purge <number>",
+        "description": "Delete multiple messages (1-100). Requires Manage Messages permission",
+        "requires": "Manage Messages permission"
+      }
+    ],
+    "giveaway": [
+      {
+        "name": "/giveaway create",
+        "usage": "/giveaway create duration:<1h/1d> prize:<prize description>",
+        "description": "Create a giveaway. Duration can be in hours (h) or days (d)",
+        "examples": ["/giveaway create duration:24h prize:Discord Nitro"]
+      },
+      {
+        "name": "/giveaway end",
+        "usage": "/giveaway end giveaway_id:<id>",
+        "description": "End a giveaway early and pick winners"
+      },
+      {
+        "name": "/giveaway reroll",
+        "usage": "/giveaway reroll giveaway_id:<id>",
+        "description": "Reroll to pick new winners"
+      },
+      {
+        "name": "/giveaway list",
+        "usage": "/giveaway list",
+        "description": "View all active giveaways"
+      }
+    ],
+    "utility": [
+      {
+        "name": "!ping",
+        "usage": "!ping",
+        "description": "Check bot latency and API ping"
+      },
+      {
+        "name": "!afk",
+        "usage": "!afk [reason]",
+        "description": "Set AFK status. Bot will notify others when they mention you"
+      },
+      {
+        "name": "!avatar or !av",
+        "usage": "!avatar [@user]",
+        "description": "View user's avatar in high resolution"
+      },
+      {
+        "name": "!banner",
+        "usage": "!banner [@user]",
+        "description": "View user's profile banner"
+      },
+      {
+        "name": "!serverinfo or !si",
+        "usage": "!serverinfo",
+        "description": "Detailed server information including members, channels, roles, boost status"
+      },
+      {
+        "name": "!botinfo or !info",
+        "usage": "!botinfo",
+        "description": "Lena Bot information including servers, users, uptime, features"
+      },
+      {
+        "name": "!uptime",
+        "usage": "!uptime",
+        "description": "How long the bot has been running"
+      },
+      {
+        "name": "!roll",
+        "usage": "!roll [number]d[sides]",
+        "description": "Roll dice. Examples: !roll 2d6 (roll 2 six-sided dice)",
+        "examples": ["!roll 1d20", "!roll 3d6"]
+      },
+      {
+        "name": "!whois",
+        "usage": "!whois [@user or user ID]",
+        "description": "Detailed user information including roles, join date, account age"
+      },
+      {
+        "name": "!membercount",
+        "usage": "!membercount",
+        "description": "Count total members in server"
+      },
+      {
+        "name": "!poll",
+        "usage": "!poll \"Question\" \"Option1\" \"Option2\" ...",
+        "description": "Create a poll with reactions (max 10 options)",
+        "examples": ["!poll \"Pizza or Burger?\" \"Pizza\" \"Burger\""]
+      }
+    ],
+    "admin_config": [
+      {
+        "name": "/setmode",
+        "usage": "/setmode mode:<lena/tutor/technical/developer/casual/professional>",
+        "description": "Change AI personality mode for the server",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "!setprefix",
+        "usage": "!setprefix <new prefix>",
+        "description": "Change command prefix for the server",
+        "requires": "Administrator permission",
+        "examples": ["!setprefix ?", "!setprefix ."]
+      },
+      {
+        "name": "!setlang",
+        "usage": "!setlang <vi|en>",
+        "description": "Change server language to Vietnamese (vi) or English (en). Affects bot responses and search results",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "/config",
+        "usage": "/config",
+        "description": "View current server configuration"
+      },
+      {
+        "name": "/embed",
+        "usage": "/embed <create/delete/list/send>",
+        "description": "Manage custom embeds for announcements and messages",
+        "requires": "Manage Server permission"
+      },
+      {
+        "name": "/response",
+        "usage": "/response <add/list/delete>",
+        "description": "Create custom auto-responses with keywords",
+        "requires": "Manage Server permission"
+      }
+    ],
+    "automation": [
+      {
+        "name": "!automod",
+        "usage": "!automod <enable|disable|config>",
+        "description": "Configure auto moderation for spam, links, caps, mass mentions. Can set thresholds and actions",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "!actionlogs",
+        "usage": "!actionlogs <enable|disable> [#channel]",
+        "description": "Log member/message events including joins, leaves, bans, kicks, deletes to a channel",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "!autodelete",
+        "usage": "!autodelete <enable|disable> #channel <seconds>",
+        "description": "Auto delete messages in specific channels after X seconds",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "!autoroles",
+        "usage": "!autoroles <enable|disable|add|remove> [role]",
+        "description": "Auto assign roles when members join the server",
+        "requires": "Administrator permission"
+      },
+      {
+        "name": "!customcmd",
+        "usage": "!customcmd <create|delete|list> [name]",
+        "description": "Create custom commands with variables (Premium feature)",
+        "requires": "Administrator permission + Premium"
+      },
+      {
+        "name": "!scheduled",
+        "usage": "!scheduled <add|list|delete> [schedule]",
+        "description": "Schedule automated messages (Premium feature)",
+        "requires": "Administrator permission + Premium"
+      },
+      {
+        "name": "!lockdown",
+        "usage": "!lockdown",
+        "description": "Lock configured channels to prevent messages (can be configured in moderation settings)",
+        "requires": "Administrator permission"
+      }
+    ]
+  },
+  "features": {
+    "conversation": "Context-aware AI conversations with 7-day memory per channel. Supports multiple personalities and natural language understanding",
+    "education": "Professional tutoring system for all grade levels with detailed explanations and step-by-step solutions",
+    "web_search": "Real-time web search with citations from Google Custom Search and DuckDuckGo fallback",
+    "news": "Bilingual news system with CNN (English) and Vietnamese sources (VnExpress, Tuổi Trẻ)",
+    "moderation": "Complete moderation suite with logging, auto-moderation, role protection, and custom messages",
+    "giveaways": "Full giveaway management with automatic winner selection and participant tracking",
+    "custom_responses": "Keyword-triggered auto-responses with priority ordering",
+    "confession_system": "Anonymous confession system with moderation controls",
+    "training_data": "Custom Q&A training data per server (Premium feature)",
+    "multi_language": "Full Vietnamese and English support with server-based language switching",
+    "premium_features": "Custom bots, custom commands, scheduled messages, advanced automation"
+  },
+  "help_topics": {
+    "getting_started": "To start using Lena, invite her to your server and set a language using !setlang vi or !setlang en. Then you can chat by mentioning @Lena or using the keyword 'lena'",
+    "change_prefix": "Use !setprefix <new> to change the command prefix. Example: !setprefix ? will change all commands to ?command",
+    "change_personality": "Use /setmode to switch between 6 personalities: lena, tutor, technical, developer, casual, professional",
+    "setup_moderation": "Visit the dashboard at your-domain/dashboard to configure moderation, auto-delete, auto-roles, and action logging",
+    "premium_features": "Premium unlocks custom bots, unlimited custom commands, scheduled messages, training data, and priority support. Visit /dashboard/pricing",
+    "troubleshooting": {
+      "bot_not_responding": "Check if bot has permission to read/send messages in the channel. Check allowed channels in dashboard settings",
+      "commands_not_working": "Make sure you're using the correct prefix (default is !). Check with !ping to see if bot is online",
+      "no_search_results": "Search requires internet access. If persistent, try again later or contact support",
+      "language_issues": "Set server language with !setlang vi or !setlang en. This affects all bot responses and search results"
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "common": {
+    "error": "❌ An error occurred!",
+    "success": "✅ Success!",
+    "loading": "⏳ Processing...",
+    "noPermission": "❌ You don't have permission to use this command!",
+    "adminOnly": "❌ Only admins can use this command!",
+    "invalidUsage": "❌ Invalid usage!",
+    "userNotFound": "❌ User not found!",
+    "serverOnly": "❌ This command can only be used in servers!"
+  },
+  "ping": {
+    "title": "🏓 Pong!",
+    "botLatency": "Bot Latency",
+    "apiLatency": "API Latency",
+    "uptime": "Uptime"
+  },
+  "help": {
+    "title": "📚 Command List",
+    "description": "Here are all available commands for Lena Bot",
+    "usage": "Usage",
+    "example": "Example",
+    "aliases": "Aliases",
+    "category": "Category",
+    "noDescription": "No description"
+  },
+  "config": {
+    "title": "⚙️ Server Configuration",
+    "prefix": "Prefix",
+    "personality": "Personality Mode",
+    "language": "Language",
+    "autoReact": "Auto React",
+    "contentFilter": "Content Filter",
+    "allowedChannels": "Allowed Channels",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "noChannels": "All channels",
+    "vietnamese": "Vietnamese",
+    "english": "English"
+  },
+  "setlanguage": {
+    "success": "✅ Language changed to **{{language}}**!",
+    "current": "Current language: **{{language}}**",
+    "available": "Available languages: `vi` (Vietnamese), `en` (English)",
+    "invalid": "❌ Invalid language! Use `vi` or `en`."
+  },
+  "afk": {
+    "set": "💤 {{user}} is now AFK: {{reason}}",
+    "removed": "👋 Welcome back, {{user}}! You were AFK for {{duration}}.",
+    "mention": "💤 {{user}} is currently AFK: {{reason}}",
+    "noReason": "AFK"
+  },
+  "serverinfo": {
+    "title": "ℹ️ Server Information",
+    "name": "Server Name",
+    "id": "ID",
+    "owner": "Owner",
+    "members": "Members",
+    "channels": "Channels",
+    "roles": "Roles",
+    "boosts": "Boosts",
+    "createdAt": "Created At"
+  },
+  "botinfo": {
+    "title": "🤖 Bot Information",
+    "version": "Version",
+    "servers": "Servers",
+    "users": "Users",
+    "uptime": "Uptime",
+    "memory": "Memory",
+    "ping": "Ping"
+  },
+  "giveaway": {
+    "created": "🎉 Giveaway created!",
+    "ended": "🎊 Giveaway has ended!",
+    "noParticipants": "No one joined the giveaway!",
+    "winners": "🎉 Winners",
+    "prize": "Prize",
+    "duration": "Duration",
+    "participants": "Participants",
+    "join": "Join",
+    "ended_status": "Ended",
+    "active": "Active"
+  },
+  "announcements": {
+    "overview": {
+      "title": "📢 Announcements Overview",
+      "description": "Manage automatic messages when users join/leave/boost server\n\n**Select system from menu above, then choose action from menu below**",
+      "footer": "Menu 1: Select system | Menu 2: Select action",
+      "currentSelection": "🎯 Currently selected: {{system}}"
+    },
+    "systems": {
+      "welcome": "Welcome Messages",
+      "leave": "Leave Messages",
+      "boost": "Boost Messages",
+      "all": "All Systems",
+      "welcoming": "welcoming / greeting",
+      "leaving": "leaving",
+      "boosting": "boosting"
+    },
+    "status": {
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "toEnable": "to enable",
+      "toDisable": "to disable",
+      "useMenu": "use menu"
+    },
+    "settings": {
+      "title": "settings:",
+      "channel": "channel",
+      "embed": "embed",
+      "noChannel": "no channel set",
+      "noEmbed": "no embed set"
+    },
+    "actions": {
+      "enable": "Toggle Enable",
+      "disable": "Toggle Disable",
+      "enableAll": "Enable ALL",
+      "disableAll": "Disable ALL",
+      "enableAllDesc": "Enable all systems",
+      "disableAllDesc": "Disable all systems",
+      "setChannel": "Set Channel",
+      "enableDesc": "Enable {{system}} messages",
+      "disableDesc": "Disable {{system}} messages",
+      "setChannelDesc": "Choose channel for {{system}} messages"
+    },
+    "menu": {
+      "selectSystem": "1️⃣ Select system",
+      "selectAction": "2️⃣ Select action",
+      "selectChannelPrompt": "📍 Choose channel to send {{system}} messages:"
+    },
+    "systemSelection": {
+      "selected": "Currently selected",
+      "welcomeDesc": "Manage welcome messages",
+      "leaveDesc": "Manage leave messages",
+      "boostDesc": "Manage boost messages",
+      "allDesc": "Manage all systems"
+    },
+    "responses": {
+      "channelSet": "✅ {{system}} channel set to {{channel}}!",
+      "enabled": "✅ {{system}} has been enabled!",
+      "disabled": "✅ {{system}} has been disabled!",
+      "allEnabled": "✅ All announcement systems have been enabled!",
+      "allDisabled": "✅ All announcement systems have been disabled!"
+    }
+  }
+}

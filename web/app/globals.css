@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Modal Animations */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95) translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.2s ease-out;
+}
+
+.animate-scale-in {
+  animation: scale-in 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-slide-up {
+  animation: slide-up 0.4s ease-out;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 13% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 13% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 13% 13%;
+    --primary: 210 100% 35%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 13% 95%;
+    --secondary-foreground: 220 13% 13%;
+    --muted: 220 13% 95%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 220 13% 95%;
+    --accent-foreground: 220 13% 13%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 210 100% 35%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 13% 13%;
+    --foreground: 0 0% 100%;
+    --card: 220 13% 13%;
+    --card-foreground: 0 0% 100%;
+    --popover: 220 13% 13%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 13% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 13% 20%;
+    --muted-foreground: 220 9% 65%;
+    --accent: 220 13% 20%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 20%;
+    --input: 220 13% 20%;
+    --ring: 210 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.mobile-menu-overlay {
+  background-color: #000 !important;
+  opacity: 1 !important;
+}
+
+/* Blog Editor Quill Styles */
+.blog-editor .ql-toolbar {
+  background: #1e293b;
+  border: 1px solid #475569;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.blog-editor .ql-container {
+  background: white;
+  border: 1px solid #475569;
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+  min-height: 400px;
+}
+
+.blog-editor .ql-editor {
+  min-height: 400px;
+  font-size: 16px;
+}
+
+/* Prose styles for blog content */
+.prose-invert {
+  color: #e2e8f0;
+}
+
+.prose-invert h1, .prose-invert h2, .prose-invert h3, .prose-invert h4 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.prose-invert h1 { font-size: 2.5rem; }
+.prose-invert h2 { font-size: 2rem; }
+.prose-invert h3 { font-size: 1.5rem; }
+.prose-invert h4 { font-size: 1.25rem; }
+
+.prose-invert p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.prose-invert a {
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+.prose-invert a:hover {
+  color: #93c5fd;
+}
+
+.prose-invert ul, .prose-invert ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.prose-invert li {
+  margin-bottom: 0.5rem;
+}
+
+.prose-invert img {
+  border-radius: 0.5rem;
+  margin: 2rem 0;
+  max-width: 100%;
+}
+
+.prose-invert blockquote {
+  border-left: 4px solid #60a5fa;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #cbd5e1;
+}
+
+.prose-invert code {
+  background: #1e293b;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  color: #f1f5f9;
+}
+
+.prose-invert pre {
+  background: #1e293b;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.prose-invert pre code {
+  background: transparent;
+  padding: 0;
+}
+

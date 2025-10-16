@@ -1,0 +1,30 @@
+boost embed
+✎ step one
+create the embed by using /embed create name:boost_embed
+you can name the embed anything you'd like, however we strongly recommend naming it something simple and easy to remember.
+✎ step two
+now we can edit the details of our embed to our liking!
+remember : you can either outright use these edit commands, or use the buttons + modals from creating your embed to have an interactive text form.
+to edit the author to the user's avatar and name/tag, use /embed edit author embed:boost_embed text:{user_name} icon:{user_avatar}
+to edit the title, use /embed edit title embed:boost_embed title:wowww a new booster~!
+edit the description using /embed edit description embed:boost_embed description:thank you {user_name} for boosting! you've received our booster role and 5000 {server_currency}!
+- we are now at {server_boostcount} boosts :D
+Discord on PC/Desktop/select devices do not allow new lines in slash commands. If you're looking to have new lines/better spacing in your embed, we recommend either going through the text modal OR using the {newline} variable in place of where you want a new line to start.
+add a boost icon as your thumbnail using /embed edit thumbnail embed:boost_embed image:https://cdn.discordapp.com/attachments/840652464532488202/947591810283347989/EWdeUeHXkAQgJh7.png
+you can set the timestamp by using /embed edit timestamp embed:boost_embed timestamp:True
+add a footer using /embed edit footer embed:boost_embed text:we only need {server_nextboostlevel_until_required} boosts to our next level!
+add an image using /embed edit image embed:boost_embed image:https://cdn.discordapp.com/attachments/840652464532488202/947590709148536912/8f3f0c30e25dc0c40d9e3600949a4e3b.gif
+you can edit the color of your embed by using /embed edit color embed:boost_embed color:#CF9FFF
+in the end, you should have an embed like below if you followed the guide exact
+
+our full boost embed
+✎ step three
+mimu now needs to know that we'd like this embed to be apart of our boost.
+use /set boost message message:thank you, {user}! {modifybal:5000}{embed:boost_embed} to set the boost message to a short thanks, pinging the user, giving them the promised currency, and the embed we just created.
+we also need to set our boost channel using /set boost channel channel:#channel
+in addition to this, we need our default server boost messages on in a channel that Mimu can see. it doesn't necessarily need to be the same channel as your mimu boost message is in, however mimu needs to be able to see the system boost messages in order to know when someone boosts.
+
+the system messages found in server settings > overview
+✎ step four
+we can test our boost using /test boost
+testing our boost should yield the results below ::

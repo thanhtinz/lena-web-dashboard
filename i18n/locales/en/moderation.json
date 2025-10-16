@@ -1,0 +1,56 @@
+{
+  "errors": {
+    "disabled": "❌ Moderation module is currently disabled! Enable it in the web dashboard.",
+    "noPerm": "❌ You don't have permission to use this command!",
+    "noPermBan": "❌ You don't have permission to ban members!",
+    "noPermKick": "❌ You don't have permission to kick members!",
+    "noPermMute": "❌ You don't have permission to mute members!",
+    "userNotFound": "❌ User not found in server!",
+    "cannotSelf": "❌ You cannot ban yourself!",
+    "protected": "❌ This user has a protected role and cannot be banned!",
+    "higherRole": "❌ You cannot ban someone with a role higher than or equal to yours!",
+    "invalidDuration": "❌ Invalid duration! Minimum: 5 minutes, Maximum: 7 days (10080 minutes)",
+    "notMuted": "❌ This member is not muted!",
+    "warningNotFound": "❌ Warning not found!",
+    "botError": "❌ An error occurred while executing the command!"
+  },
+  "success": {
+    "banned": "✅ **{user}** has been banned!",
+    "unbanned": "✅ **{user}** has been unbanned!",
+    "kicked": "✅ **{user}** has been kicked!",
+    "muted": "✅ **{user}** has been muted for {duration}!",
+    "unmuted": "✅ **{user}** has been unmuted!",
+    "warned": "✅ **{user}** has been warned! (Warnings: {count}/5)",
+    "unwarnSuccess": "✅ Warning #{id} has been removed!",
+    "lockSuccess": "🔒 Channel {channel} has been locked!\n**Reason:** {reason}",
+    "unlockSuccess": "🔓 Channel {channel} has been unlocked!\n**Reason:** {reason}",
+    "slowmodeSuccess": "⏱️ Slowmode set for {channel}: {duration}\n**Reason:** {reason}"
+  },
+  "dm": {
+    "banned": "You have been banned from {server} for: {reason}",
+    "unbanned": "You have been unbanned from {server}",
+    "kicked": "You have been kicked from {server} for: {reason}",
+    "muted": "You have been muted in {server} for: {reason}. Duration: {duration}",
+    "unmuted": "You have been unmuted in {server}",
+    "warned": "⚠️ You have been warned in {server}!\n**Reason:** {reason}\n**Total warnings:** {count}/5"
+  },
+  "labels": {
+    "reason": "Reason",
+    "noReason": "No reason provided",
+    "duration": "Duration"
+  },
+  "lock_success": "🔒 Channel {channel} has been locked!\n**Reason:** {reason}",
+  "unlock_success": "🔓 Channel {channel} has been unlocked!\n**Reason:** {reason}",
+  "slowmode_success": "⏱️ Slowmode set for {channel}: {duration}\n**Reason:** {reason}",
+  "slowmode_disabled": "Disabled",
+  "slowmode_duration": "{duration}",
+  "slowmode_invalid_duration": "❌ Invalid slowmode duration! (0-21600 seconds / 0-6 hours)",
+  "purge_success": "🗑️ Deleted {count} messages in {channel}!",
+  "purge_processing": "🗑️ Deleting messages...",
+  "nuke_success": "💣 Channel has been nuked by {user}! All old messages have been deleted! ✨",
+  "nuke_processing": "💣 Nuking channel...",
+  "command_disabled": "❌ The {command} command has been disabled by server administrators!",
+  "no_permission": "❌ You don't have permission to use this command!",
+  "no_reason": "No reason provided",
+  "error": "❌ An error occurred while executing the command!"
+}

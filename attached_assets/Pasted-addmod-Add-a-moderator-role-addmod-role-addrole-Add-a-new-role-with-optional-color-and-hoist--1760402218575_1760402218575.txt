@@ -1,0 +1,104 @@
+addmod
+Add a moderator role.
+?addmod [role]
+addrole
+Add a new role, with optional color and hoist.
+?addrole [role name] (color name/hex) (hoist)
+delmod
+Remove a moderator role.
+?delmod [role]
+delrole
+Delete a role.
+?delrole [role]
+modules
+List available modules
+?modules
+listmods
+List moderators.
+?listmods
+nick
+Change the bot nickname.
+?nick [new nickname]
+rolecolor
+Change the color of a role.
+?rolecolor [role] [hex color]
+rolename
+Change the name of a role.
+?rolename [role], [new name]
+purge
+Delete a number of messages from a channel. (limit 1000).
+?purge [count]
+?purge user [user] [count]
+?purge match [text] (count)
+?purge not [text] (count)
+?purge startswith [text] (count)
+?purge endswith [text] (count)
+?purge links
+?purge invites (count)
+?purge images (count)
+?purge mentions (count)
+?purge embeds (count)
+?purge bots (count)
+?purge humans (count)
+?purge text (count)
+?purge after [message ID/link] (count)
+announce
+Send an announcement using the bot.
+?announce [channel] [message]
+?announce everyone [channel] [message]
+?announce here [channel] [message]
+?announce role [role] [channel] [message]
+command
+Enable/disable a command.
+?command [command name]
+ignorechannel
+Toggles command usage in a channel. (Does not affect mods and managers).
+?ignorechannel [channel]
+prefix
+Get or set the command prefix for this server.
+?prefix [new prefix]
+setnick
+Change the nickname of a user.
+?setnick [user] [new nickname]
+ignoreuser
+Toggles command usage for a user
+?ignoreuser [user]
+clearwarn
+Clear warnings for a user
+?clearwarn [user]
+mentionable
+Toggle making a role mentionable on/off.
+?mentionable [role name] (true/false)
+role
+Add/remove a user to a role or roles.
+?role [user] (+/-)[role(s)] (separated by comma `, `)
+?role add [user] [role(s)] (separated by comma `, `)
+?role remove [user] [role(s)] (separated by comma `, `)
+?role toggle [user] [role(s)] (separated by comma `, `)
+?role removeall [user]
+?role all (+/-)[role]
+?role bots (+/-)[role]
+?role humans (+/-)[role]
+?role in [role], (+/-)[role]
+?role status
+?role cancel
+module
+Enable/disable a module.
+?module [module name]
+ignorerole
+Toggles command usage for a role. (Does not affect mods and managers).
+?ignorerole [role]
+customs
+List, enable, disable custom commands.
+?customs enable [command name]
+?customs disable [command name]
+?customs show [command name]
+?customs list
+giveaway
+Create and manage giveaways
+?giveaway create [channel] [winners] [duration] [name]
+?giveaway end [message ID/message link]
+?giveaway reroll [message ID/message link] (winner to reroll)
+addemote
+Adds an emote to the server
+?addemote [name] [image link or attach a image file]

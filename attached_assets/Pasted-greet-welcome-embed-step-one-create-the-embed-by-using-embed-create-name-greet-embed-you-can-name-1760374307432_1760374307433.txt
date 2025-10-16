@@ -1,0 +1,30 @@
+greet/welcome embed
+✎ step one
+create the embed by using /embed create name:greet_embed
+you can name the embed anything you'd like, however we strongly recommend naming it something simple and easy to remember.
+✎ step two
+now we can edit the details of our embed to our liking
+remember : you can either outright use these edit commands, or use the buttons + modals from creating your embed to have an interactive text form.
+to edit the author to the user's avatar and name/tag, use /embed edit author embed:greet_embed text:{user_name} icon:{user_avatar}
+to edit the title, use /embed edit title embed:greet_embed title:welcome to {server_name}, cutie!
+edit the description using /embed edit description embed:greet_embed description:- get your roles in #roles
+
+- remember to read the #rules
+
+- [link to server](https://discord.gg/mimu)
+Discord on PC/Desktop/select devices do not allow new lines in slash commands. if you're looking to have new lines/better spacing in your embed, we recommend either going through the text modal OR using the {newline} variable in place of where you want a new line to start.
+add the server icon as your thumbnail using /embed edit thumbnail embed:greet_embed image:{server_icon}
+you can set the timestamp by using /embed edit timestamp embed:greet_embed timestamp:True
+add a footer using /embed edit footer embed:greet_embed text:you are our {server_membercount_ordinal} member!
+add an image using /embed edit image embed:greet_embed image:https://cdn.discordapp.com/attachments/760988796249833472/908698057502240808/386C83E5-5761-43E2-950C-CBB9590758B4.jpg
+you can edit the color of your embed by using /embed edit color embed:greet_embed color:#ffeeff
+in the end, you should have an embed like below if you followed the guide exact
+
+the resulting embed
+✎ step three
+mimu now needs to know that we'd like this embed to be apart of our greet.
+use /set greet message message:welcome, {user}! {embed:greet_embed} to set the greet message to a short welcome, pinging the user, and the embed we just created.
+we also need to set our greet channel using /set greet channel channel:#welcome
+✎ step four
+we can test our greet using /test greet
+testing our greet should yield the results below ::

@@ -1,0 +1,139 @@
+{
+  "gameInfo": {
+    "names": ["Honor of Kings", "Vương Giả Vinh Diệu", "VGVD", "HOK", "王者荣耀"],
+    "description": "Game MOBA trực tuyến 5v5 với hơn 100 triệu người chơi mỗi ngày. Đây là phiên bản gốc của Liên Quân Mobile.",
+    "developer": "Timi Studio Group",
+    "publisher": ["Tencent Games (Trung Quốc)", "Level Infinite (Quốc Tế)"],
+    "platforms": ["Android", "iOS", "HarmonyOS", "Giả Lập PC"],
+    "releaseDate": {
+      "china": "26/11/2015",
+      "global": "20/6/2024"
+    },
+    "languages": ["Tiếng Việt", "English", "Tiếng Trung"],
+    "size": "11.5 GB (sau khi cài đặt đầy đủ)",
+    "genre": "Game MOBA, Nhập vai, Hành động, Chiến thuật thời gian thực"
+  },
+  "gameModes": {
+    "5v5": "Chế độ chính - 3 đường (Top/Mid/Bot) + Rừng",
+    "1v1": "Chế độ đấu solo",
+    "10v10": "Chế độ đại chiến",
+    "5v5v5": "Chế độ 3 phe"
+  },
+  "positions": {
+    "top": {
+      "name": "Đường Trên (Top Lane)",
+      "roles": ["Đấu sĩ", "Đỡ đòn"],
+      "description": "Dành cho tướng có khả năng chiến đấu tay đôi mạnh mẽ"
+    },
+    "mid": {
+      "name": "Đường Giữa (Mid Lane)", 
+      "roles": ["Pháp sư", "Sát thủ"],
+      "description": "Dành cho tướng có khả năng dồn sát thương nhanh"
+    },
+    "bot": {
+      "name": "Đường Dưới (Bot Lane)",
+      "roles": ["Xạ thủ (ADC)", "Hỗ trợ (Support)"],
+      "description": "Xạ thủ là nguồn sát thương chính cuối trận, Hỗ trợ bảo kê và tạo lợi thế"
+    },
+    "jungle": {
+      "name": "Khu Rừng (Jungle)",
+      "roles": ["Sát thủ", "Đấu sĩ"],
+      "description": "Đi rừng, farm quái, hỗ trợ các đường, gank"
+    }
+  },
+  "seasons": {
+    "global": {
+      "current": "S12",
+      "updateDate": "24/8/2025"
+    },
+    "china": {
+      "current": "S41",
+      "updateDate": "25/9/2025"
+    }
+  },
+  "heroes": {
+    "total": {
+      "global": "90+ tướng",
+      "china": "120+ tướng"
+    },
+    "newest": ["Nguyên Lưu Chi Tử (Hỗ trợ)", "Chi Cha"],
+    "topPicks": [
+      "Ngao Ẩn", "Dolia", "Charlotte", "Nguyên Ca", "Ngu Cơ",
+      "Tôn Ngộ Không", "Mai Shiranui", "Hoa Mộc Lan", "Hàn Tín",
+      "Võ Tắc Thiên", "Marco Polo", "Lý Bạch", "Miyamoto Musashi",
+      "A Kha", "Tôn Thượng Hương", "Đại Tư Mệnh", "Chúc Duyên",
+      "Ảnh", "Thương", "Không Không Nhi"
+    ],
+    "topStats": [
+      {"name": "Đát Kỷ", "pickRate": "3.24%", "winRate": "51.36%", "banRate": "0.34%"},
+      {"name": "Tôn Thượng Hương", "pickRate": "2.65%", "winRate": "48.04%", "banRate": "0.04%"},
+      {"name": "Hậu Nghệ", "pickRate": "2.42%", "winRate": "50.88%", "banRate": "0.09%"},
+      {"name": "Lan", "pickRate": "2.39%", "winRate": "52.41%", "banRate": "3.30%"},
+      {"name": "Tôn Sách", "pickRate": "2.39%", "winRate": "51.73%", "banRate": "0.09%"},
+      {"name": "Hạ Hầu Đôn", "pickRate": "2.30%", "winRate": "51.55%", "banRate": "0.16%"},
+      {"name": "Marco Polo", "pickRate": "2.19%", "winRate": "47.31%", "banRate": "0.18%"},
+      {"name": "Điển Vi", "pickRate": "2.06%", "winRate": "54.09%", "banRate": "0.77%"},
+      {"name": "Khương Tử Nha", "pickRate": "1.79%", "winRate": "50.40%", "banRate": "0.34%"},
+      {"name": "Thiếu Tư Duyên", "pickRate": "1.75%", "winRate": "52.36%", "banRate": "2.48%"}
+    ]
+  },
+  "giftcodes": {
+    "active": [
+      {"code": "UESCZ1CE9P", "reward": "Quà Ngẫu Nhiên", "date": "11.10.2025"},
+      {"code": "HOKXSL", "reward": "1 Tướng Ngẫu Nhiên", "date": "10.10.2025"}
+    ]
+  },
+  "features": [
+    "Tướng - Hơn 90 tướng đa dạng",
+    "Giftcode - Code miễn phí thường xuyên",
+    "Tier List - Bảng xếp hạng tướng mạnh",
+    "Trang Bị - Hệ thống build đa dạng",
+    "Bảng Ngọc - Ngọc bổ trợ sức mạnh",
+    "Bổ Trợ - Kỹ năng triệu hồi",
+    "Trang Phục - Skin đẹp, đa dạng",
+    "Community - Cộng đồng đông đảo"
+  ],
+  "websites": {
+    "vuonggiavinhdieu": {
+      "url": "https://vuonggiavinhdieu.net",
+      "description": "Trang chia sẻ kiến thức, build và hướng dẫn chơi VGVD",
+      "features": [
+        "Tổng hợp tướng, build, hướng dẫn",
+        "Giftcode cập nhật liên tục", 
+        "Tier list tướng mạnh",
+        "Tin tức cập nhật mùa giải",
+        "Trang bị, bảng ngọc chi tiết",
+        "Share PNG tướng, skin",
+        "Tips & Tricks hay"
+      ]
+    },
+    "honorofkings": {
+      "url": "https://honorofkings.com.vn",
+      "description": "Trang chính thức HOK Việt Nam - Tin tức, hướng dẫn",
+      "features": [
+        "Danh sách tướng với stats",
+        "So sánh solo tướng",
+        "Cẩm nang hướng dẫn chi tiết",
+        "Tạo tên ký tự đặc biệt",
+        "Tướng tương đồng Liên Quân",
+        "Thông tin cập nhật chỉnh sửa tướng",
+        "Hướng dẫn rank, chơi từng vị trí"
+      ]
+    }
+  },
+  "tips": [
+    "Nên farm đủ vàng trước khi giao tranh",
+    "Ưu tiên mục tiêu: Rồng > Tháp > Giết tướng",
+    "Hợp tác đồng đội, không đi solo quá nhiều",
+    "Chọn tướng phù hợp với đội hình",
+    "Xem mini map thường xuyên",
+    "Ward để tránh bị gank",
+    "Chơi tướng mình thành thạo"
+  ],
+  "history": {
+    "original": "Ban đầu tên League of Kings (LOK) năm 2015",
+    "rebrand": "Đổi thành Honor of Kings (HOK) do lo ngại sao chép LOL",
+    "vietnam": "Phiên bản Liên Quân Mobile (Arena of Valor) ra mắt 12/10/2016 tại VN",
+    "global": "HOK chính thức ra mắt toàn cầu 20/6/2024"
+  }
+}

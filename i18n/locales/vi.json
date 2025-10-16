@@ -1,0 +1,147 @@
+{
+  "common": {
+    "error": "❌ Đã xảy ra lỗi!",
+    "success": "✅ Thành công!",
+    "loading": "⏳ Đang xử lý...",
+    "noPermission": "❌ Bạn không có quyền sử dụng lệnh này!",
+    "adminOnly": "❌ Chỉ admin mới có thể sử dụng lệnh này!",
+    "invalidUsage": "❌ Cú pháp không đúng!",
+    "userNotFound": "❌ Không tìm thấy user!",
+    "serverOnly": "❌ Lệnh này chỉ dùng được trong server!"
+  },
+  "ping": {
+    "title": "🏓 Pong!",
+    "botLatency": "Bot Latency",
+    "apiLatency": "API Latency",
+    "uptime": "Thời gian hoạt động"
+  },
+  "help": {
+    "title": "📚 Danh sách lệnh",
+    "description": "Dưới đây là tất cả các lệnh có sẵn của Lena Bot",
+    "usage": "Cách dùng",
+    "example": "Ví dụ",
+    "aliases": "Tên gọi khác",
+    "category": "Danh mục",
+    "noDescription": "Không có mô tả"
+  },
+  "config": {
+    "title": "⚙️ Cấu hình Server",
+    "prefix": "Prefix",
+    "personality": "Personality Mode",
+    "language": "Ngôn ngữ",
+    "autoReact": "Auto React",
+    "contentFilter": "Content Filter",
+    "allowedChannels": "Kênh được phép",
+    "enabled": "Bật",
+    "disabled": "Tắt",
+    "noChannels": "Tất cả kênh",
+    "vietnamese": "Tiếng Việt",
+    "english": "Tiếng Anh"
+  },
+  "setlanguage": {
+    "success": "✅ Đã đổi ngôn ngữ sang **{{language}}**!",
+    "current": "Ngôn ngữ hiện tại: **{{language}}**",
+    "available": "Ngôn ngữ có sẵn: `vi` (Tiếng Việt), `en` (English)",
+    "invalid": "❌ Ngôn ngữ không hợp lệ! Dùng `vi` hoặc `en`."
+  },
+  "afk": {
+    "set": "💤 {{user}} đã AFK: {{reason}}",
+    "removed": "👋 Chào mừng trở lại, {{user}}! Bạn đã AFK được {{duration}}.",
+    "mention": "💤 {{user}} hiện đang AFK: {{reason}}",
+    "noReason": "AFK"
+  },
+  "serverinfo": {
+    "title": "ℹ️ Thông tin Server",
+    "name": "Tên Server",
+    "id": "ID",
+    "owner": "Owner",
+    "members": "Thành viên",
+    "channels": "Kênh",
+    "roles": "Vai trò",
+    "boosts": "Boosts",
+    "createdAt": "Ngày tạo"
+  },
+  "botinfo": {
+    "title": "🤖 Thông tin Bot",
+    "version": "Phiên bản",
+    "servers": "Servers",
+    "users": "Users",
+    "uptime": "Uptime",
+    "memory": "Bộ nhớ",
+    "ping": "Ping"
+  },
+  "giveaway": {
+    "created": "🎉 Giveaway đã được tạo!",
+    "ended": "🎊 Giveaway đã kết thúc!",
+    "noParticipants": "Không có ai tham gia giveaway!",
+    "winners": "🎉 Người chiến thắng",
+    "prize": "Phần thưởng",
+    "duration": "Thời gian",
+    "participants": "Người tham gia",
+    "join": "Tham gia",
+    "ended_status": "Đã kết thúc",
+    "active": "Đang hoạt động"
+  },
+  "announcements": {
+    "overview": {
+      "title": "📢 Thông báo tổng quan",
+      "description": "Quản lý các tin nhắn tự động khi user join/leave/boost server\n\n**Chọn hệ thống từ menu trên, sau đó chọn hành động từ menu dưới**",
+      "footer": "Menu 1: Chọn hệ thống | Menu 2: Chọn hành động",
+      "currentSelection": "🎯 Đang chọn: {{system}}"
+    },
+    "systems": {
+      "welcome": "Welcome Messages",
+      "leave": "Leave Messages",
+      "boost": "Boost Messages",
+      "all": "All Systems",
+      "welcoming": "welcoming / greeting",
+      "leaving": "leaving",
+      "boosting": "boosting"
+    },
+    "status": {
+      "enabled": "enabled",
+      "disabled": "disabled",
+      "toEnable": "để bật",
+      "toDisable": "để tắt",
+      "useMenu": "dùng menu"
+    },
+    "settings": {
+      "title": "settings:",
+      "channel": "channel",
+      "embed": "embed",
+      "noChannel": "no channel set",
+      "noEmbed": "no embed set"
+    },
+    "actions": {
+      "enable": "Toggle Enable",
+      "disable": "Toggle Disable",
+      "enableAll": "Enable ALL",
+      "disableAll": "Disable ALL",
+      "enableAllDesc": "Bật tất cả hệ thống",
+      "disableAllDesc": "Tắt tất cả hệ thống",
+      "setChannel": "Set Channel",
+      "enableDesc": "Bật {{system}} messages",
+      "disableDesc": "Tắt {{system}} messages",
+      "setChannelDesc": "Chọn kênh cho {{system}} messages"
+    },
+    "menu": {
+      "selectSystem": "1️⃣ Chọn hệ thống",
+      "selectAction": "2️⃣ Chọn hành động",
+      "selectChannelPrompt": "📍 Chọn kênh để gửi {{system}} messages:"
+    },
+    "systemSelection": {
+      "selected": "Đang chọn",
+      "welcomeDesc": "Quản lý welcome messages",
+      "leaveDesc": "Quản lý leave messages",
+      "boostDesc": "Quản lý boost messages",
+      "allDesc": "Quản lý tất cả hệ thống"
+    },
+    "responses": {
+      "channelSet": "✅ Đã đặt kênh {{system}} thành {{channel}}!",
+      "enabled": "✅ {{system}} đã được bật!",
+      "disabled": "✅ {{system}} đã được tắt!",
+      "allEnabled": "✅ Tất cả hệ thống thông báo đã được bật!",
+      "allDisabled": "✅ Tất cả hệ thống thông báo đã được tắt!"
+    }
+  }
+}

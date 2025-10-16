@@ -1,0 +1,32 @@
+general/nonspecific embed
+embeds aren't limited to things such as rules or welcome messages, they can be used for anything! 
+✎ step one
+create the embed by using /embed create name:general_embed
+you can name the embed anything you'd like, however we strongly recommend naming it something simple and easy to remember.
+✎ step two
+let's start to edit the embed to our liking! 
+remember : you can either outright use these edit commands, or use the buttons + modals from creating your embed to have an interactive text form.
+you can edit any part of the embed to whatever you'd like! you can customize it to whatever you'd like to fit your server. this guide just goes through creating a common general embed.
+editing the author: /embed edit author embed:general_embed text:{server_name} icon:{server_icon}
+want something else for the author? just replace {server_name} & {server_icon} with whatever text/ image you'd like.
+note: if you'd like an image in your author, its link must be in the icon: section of the command  
+editing the title: /embed edit title embed:general_embed title:learn about our server!
+is this embed for something else? just replace learn about our server with whatever text you'd like c:
+editing the description: /embed edit description embed:general_embed description:let's get comfy at {server_name} c:
+
+> owned by: {server_owner}
+
+> created on: {server_createdate}
+is this embed for something else? just replace all the text after general_embed with whatever description text you desire.
+Discord on PC/Desktop/select devices do not allow new lines in slash commands. If you're looking to have new lines/better spacing in your embed, we recommend either going through the text modal OR using the {newline} variable in place of where you want a new line to start.
+editing our thumbnail: /embed edit thumbnail embed:general_embed image:{user_avatar}
+editing our image: /embed edit image embed:general_embed image:https://cdn.discordapp.com/attachments/760988796249833472/907997718788603914/8E08317A-B423-43F5-8D50-CE505204532D.png
+if you want a different image, make sure to grab the link! unsure how? click here 
+
+editing our embed's image
+editing the color: /embed edit color embed:general_embed color:#607D3B
+feel free to replace the hexcode at the end with any other hex code you'd like. if you need to find a hex code, click here
+editing the footer: /embed edit footer embed:general_embed text:thanks for learning with me!
+adding a timestamp: /embed edit timestamp embed:general_embed timestamp:True
+. . . and we're done! we've created a general embed for our server.
+we can either preview it in a channel using /embed show embed:general_embed or create an autoresponder for it.

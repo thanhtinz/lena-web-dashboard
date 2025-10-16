@@ -1,0 +1,31 @@
+leave/goodbye embed
+✎ step one
+create the embed by using /embed create name:leave_embed
+you can name the embed anything you'd like, however we strongly recommend naming it something simple and easy to remember.
+✎ step two
+now we can edit the details of our embed to our liking!
+remember : you can either outright use these edit commands, or use the buttons + modals from creating your embed to have an interactive text form.
+edit the author to the user's avatar and name/tag by using /embed edit author embed:leave_embed text:{user_name} icon:{user_avatar}
+edit the title by using /embed edit title embed:leave_embed title:goodbye!
+edit the thumbnail to the user's avatar by using /embed edit thumbnail embed:leave_embed image:{user_avatar}
+edit the description of the embed to /embed edit description embed:leave_embed description:oh no!
+
+it looks like {user_name} has left us :c
+
+we now have {server_membercount} members
+Discord on PC/Desktop/select devices do not allow new lines in slash commands. If you're looking to have new lines/better spacing in your embed, we recommend either going through the text modal OR using the {newline} variable in place of where you want a new line to start.
+you can add a timestamp by using /embed edit timestamp embed:leave_embed timestamp:True
+edit the footer of the embed by using /embed edit footer embed:leave_embed text:we now have {server_membercount} members. . .
+edit the color of your embed by using /embed edit color embed:leave_embed color:#feeee8
+lastly, you can edit the image of the embed by using /embed edit image embed:leave_embed image:https://tenor.com/view/puffybear-puffy-face-cute-bye-gif-12628645
+if you followed this, you should get something like:
+
+a completed leave message embed
+✎ step three
+now that you have a leave embed, we can set the leave message & channel!
+set your leave message by using /set leave message message:oh no. . . bye, {user_tag} {embed:leave_embed}
+make sure that mimu has full permissions to send the embed to the channel you want the message to be sent to, then run
+/set leave channel channel:#channel
+✎ step four
+we can test our leave using /test leave
+testing our leave should yield the results below ::
